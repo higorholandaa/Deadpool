@@ -1,0 +1,120 @@
+/*GERAL*/
+body{   
+    margin: 0;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+}
+
+/*NAV-BAR*/
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: #050c18;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #aaa0a0;
+    margin-inline-start: 20px;
+}
+
+.menu ul{
+    margin-right: 50px;
+    float: right;
+}
+
+a:hover {
+    text-decoration: solid;
+    color: #bd2323;
+    text-shadow: 0.1em 0.1em 0.1em #bd2323;
+}
+
+.menu ul li { 
+    display: inline;
+}
+
+/*HEADER*/
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    color: white;
+    margin-left: 10px;
+}
+
+.heroi{
+    margin-top: 30px;
+    width: 500px;
+}
+
+/*CAIXAS APRESENTAÇÃO*/
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-left: 19px;
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+    background-image: linear-gradient(to top, #b63333, #5c1b1b);
+    border: solid 2px #ffffff;
+}
+
+.box h3{
+    color: #000000f6;
+    text-align: center;
+}
+
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 12px;
+    color: #f3f3f3;
+}
+
+.figure{
+    border-radius: 5%;
+    border: solid 2px white;
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+.rodape{
+    background-color: #050c18;
+    height: 50px;
+}
+.rodape p{
+    padding: 15px 15px 0 0;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #aaa0a0;
+
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 500px) {
+
+    body{   
+        margin: 0;
+        background-image: url(../img/back.jpg);
+        background-repeat: repeat;
+    }
+    
+    .info{
+        display: inline;
+    }
+
+
+}
